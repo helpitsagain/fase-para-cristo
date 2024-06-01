@@ -1,0 +1,57 @@
+.container-content {
+  margin: auto;
+  width: 80vw;
+
+  .grid-content {
+    align-items: center;
+    margin: 25px;
+
+    h1 {
+      text-align: left;
+      font-size: 2.5em;
+      margin: 0 20px;
+    }
+
+    p {
+      text-align: left;
+      font-size: 1.5em;
+      margin: 0 20px;
+    }
+
+    img {
+      height: 350px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &.content-reverse {
+      flex-direction: row-reverse;
+    }
+
+    &.quem-somos {
+      img {
+        object-position: 100% 50%;
+      }
+    }
+
+    &.contribua {
+
+      img {
+        object-position: 100% 50%;
+      }
+    }
+
+    &.equipes {
+      img {
+        object-position: 100% 90%;
+        transform: scaleX(-1);
+      }
+    }
+
+    &.seja-voluntario {
+      img {
+        object-position: 100% 17%;
+      }
+    }
+  }
+}
