@@ -1,12 +1,12 @@
 import "./App.css";
 import Header from "./components/header/header";
-import QuemSomos from "./components/quem-somos/quem-somos";
+import SobreNos from "./components/SobreNos/SobreNos";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <QuemSomos />
+      <SobreNos />
     </div>
   );
 }
